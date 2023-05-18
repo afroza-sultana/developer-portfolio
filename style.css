@@ -1,0 +1,96 @@
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.top-banner{
+    background-color: #FFF8F3;
+    background-image:url(images/header_bg.png),url(images/developer.png);
+    background-position: bottom right, left;
+    background-repeat: no-repeat;
+}
+.banner{
+    display: flex;
+    margin: 0 200px;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+li{
+   list-style: none;
+   display: inline;
+   justify-content: space-between;
+   padding: 0px 0px 0px 40px;
+
+}
+h2, h3{
+    font-size: 45px;
+    font-weight:600;
+}
+h1{
+    font-size: 85px;
+    font-weight: 700;
+    margin: 0;
+}
+
+p{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.orange-color{
+    color:#FD6E0A;
+}
+.button{
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    padding: 18px 35px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+}
+/* about section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about {
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    margin: 130px 0;
+}
+.title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 50px
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-description{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
+/* what I do section */
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+/* resume */
+.section-margin{
+    margin-top: 130px;
+}
